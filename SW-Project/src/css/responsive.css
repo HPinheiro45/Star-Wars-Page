@@ -12,7 +12,7 @@
         height: 100%;
     }
     .botoes .botao img {
-        max-width: 105px;
+        max-width: 85px;
     }
 }
 
@@ -79,5 +79,66 @@
 
     .botoes .botao img {
         max-width: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    main .personagem .imagem {
+        height: auto;
+    }
+
+    .conteudo .logo {
+        width: 170px;
+        height: 75px;
+    }
+
+    .conteudo {
+        top: -25%;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 24px;
+    }
+
+    .botoes {
+        padding: 20px;
+        top: -5%;
+    }
+
+    .botoes .botao img {
+        max-width: 50px;
+    }
+}
+
+@media (max-width: 280px) {
+    main .personagem .imagem {
+        height: auto;
+    }
+
+    .conteudo {
+        top: -15%;
+    }
+
+    .conteudo .logo {
+        width: 140px;
+        height: 70px;
+    }
+
+    .conteudo .nome-personagem {
+        font-size: 20px;
+    } 
+
+    .conteudo .descricao {
+        font-size: 10px;
+        max-width: 700px;
+    }
+
+    .botoes {
+        padding: 0px;
+        top: -5%;
+    }
+
+    .botoes .botao img {
+        max-width: 45px;
     }
 }
